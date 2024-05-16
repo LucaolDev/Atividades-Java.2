@@ -10,7 +10,6 @@ public class Exercicio09 {
 		while(cont <= 15) {
 			System.out.println("valor: ");
 			valor = in.nextInt();
-			in.close();
 			
 			if (valor > maior) {
 				maior = valor;

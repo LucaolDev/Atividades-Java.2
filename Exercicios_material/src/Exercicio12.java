@@ -9,6 +9,7 @@ public class Exercicio12 {
 		
 		System.out.println("valor inteiro e positivo: ");
 		valor = in.nextInt();
+		in.close();
 		
 		for(int cont = -valor; cont <= valor; cont++) {
 			if (valor % cont == 0 ) {

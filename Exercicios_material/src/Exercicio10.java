@@ -21,9 +21,9 @@ public class Exercicio10 {
 			if (resposta.equalsIgnoreCase("n")) {
 				break;
 			}
-			cont = 0 ;
+			cont = 0;
 		}
-
+		in.close();
 	}
 
 }
